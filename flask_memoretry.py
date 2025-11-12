@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 memo = []
 
+print("123")
 
 @app.route("/")
 def main():
